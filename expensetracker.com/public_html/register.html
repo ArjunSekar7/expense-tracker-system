@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="CSS/register_CSS.css">
+      <title>Register_Page</title>
+      <script src="JS/register.js"></script>
+   </head>
+   <body background = "images/reg_background.jpg">
+      <div class="image">
+         <img src="images/register.png"  width="400" height="333">
+      </div>
+      <form action="model/register.php" method="post" onSubmit = "return verify(this)">
+         <div class="submodel">
+            <h1>Register Form</h1>
+            <label><b>Username</b></label><br>
+            <input type="text" placeholder="Enter username" name="userName" required><br><br>
+            <label><b>Email</b></label><br>
+            <input type="email" placeholder="Enter Email Address" name="email" required><br><br>
+            <label><b>Gender</b></label><br>
+            <input type="radio" name="gender" value="M" required> Male
+            <input type="radio" name="gender" value="F"required>Female<br><br>
+            <label><b>Password</b></label><br>
+            <input type="password" placeholder="Enter Password" name="password" required><br><br>
+            <label><b>Retype-Password</b></label><br>
+            <input type="Password" placeholder="Enter Password again" name="rePassword" required><br><br>
+            <input type="submit" name="submit" value = "Register" >
+         </div>
+      </form>
+   </body>
+</html>
