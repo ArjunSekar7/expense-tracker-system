@@ -1,0 +1,10 @@
+body{
+  background-attachment: fixed;
+  background-position: center;
+  margin-left: 750px;
+  margin-top: 250px;
+  width: 100%;
+}
+.fPassword{
+  margin-left: -300px;
+}
